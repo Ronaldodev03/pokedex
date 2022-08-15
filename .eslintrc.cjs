@@ -14,5 +14,9 @@ module.exports = {
   plugins: ['react', 'prettier'],
   rules: {
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'linebreak-style': 0,
+    'react/function-component-definition': 'off',
   },
 };
