@@ -1,9 +1,9 @@
 import Avatar from '@mui/material/Avatar';
 
-const Icon = ({ PictuteDirection }, { ...rest }) => (
+const Icon = ({ pictureUrl, altText, ...rest }) => (
   <Avatar
-    alt="Profile Picture"
-    src={PictuteDirection}
+    alt={altText}
+    src={pictureUrl}
     sx={{ width: 100, height: 100 }}
     {...rest}
   />

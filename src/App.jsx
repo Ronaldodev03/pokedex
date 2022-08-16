@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Icon PictuteDirection="/src/pics/images.png" />
+      <Icon pictureUrl="/src/pics/images.png" altText="Profile Picture" />
       <CardTitle>Hi, you are very welcome to my web-page.</CardTitle>
       <Button>click me!</Button>
     </div>
